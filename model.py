@@ -16,7 +16,7 @@ Stress_model = pickle.load(open('stress_model.sav', 'rb'))
 # sidebar for navigation
 with st.sidebar:
     
-    selected = option_menu('Multiple Disease Prediction System',
+    selected = option_menu('SmartWatch Assisted Multiple Disease Prediction System',
                           
                           ['Sleep Apnea Prediction',
                            'AFib Prediction',
