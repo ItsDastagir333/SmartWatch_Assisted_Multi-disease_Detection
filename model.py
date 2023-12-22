@@ -146,10 +146,10 @@ if (selected == "Stress Prediction"):
         Spo2 = st.text_input('SpO2(%)')
         
     with col3:
-        ActivityLevel = st.text_input('Activity_Level(0-1)')
+        Activity_Level = st.text_input('Activity_Level(0-1)')
         
     with col1:
-        UserInput = st.text_input('Do you think you are stresssed (0-NO || 1-YES)')
+        User_input = st.text_input('Do you think you are stresssed (0-NO || 1-YES)')
         
 
         
@@ -160,7 +160,7 @@ if (selected == "Stress Prediction"):
     
     # creating a button for Prediction    
     if st.button("Stress Test Result"):
-        stress_prediction = Stress_model.predict([[HeartRate, SpO2, Activity_Level, User_input]])                          
+        stress_prediction = Stress_model.predict([[HeartRate, Spo2, Activity_Level, User_input]])                          
         
         if (stress_prediction[0] == 1):
           stress_diagnosis = "The person is Stress"
