@@ -81,31 +81,31 @@ if (selected == 'AFib Prediction'):
     with col3:
         Stress_Level = st.text_input('Stress Level')
         
-    with col4:
+    with col1:
         Age = st.text_input('Age')
 
-    with col5:
+    with col2:
         Gender = st.text_input('Gender')
         
-    with col6:
+    with col3:
         Hypertension = st.text_input('Hypertension')
         
-    with col7:
+    with col1:
         Diabetes = st.text_input('Diabetes')
         
-    with col8:
+    with col2:
         Obesity = st.text_input('Obesity')
 
-    with col9:
+    with col3:
         Smoking = st.text_input('Smoking')
         
-    with col10:
+    with col1:
         Alcohol = st.text_input('Alcohol')
 
-    with col11:
+    with col3:
         Family_History_of_AF = st.text_input('Family History of AF')
         
-    with col12:
+    with col1:
         BMI = st.text_input('BMI')
        
      
@@ -137,16 +137,16 @@ if (selected == "Stress Prediction"):
     col1, col2, col3 = st.columns(3)  
     
     with col1:
-        HeartRate = st.text_input('MDVP:HeartRate(bpm)')
+        HeartRate = st.text_input('HeartRate(bpm)')
         
     with col2:
-        Spo2 = st.text_input('MDVP:SpO2(%)')
+        Spo2 = st.text_input('SpO2(%)')
         
     with col3:
-        ActivityLevel = st.text_input('MDVP:Activity_Level(0-1)')
+        ActivityLevel = st.text_input('Activity_Level(0-1)')
         
-    with col4:
-        UserInput = st.text_input('MDVP:Do you think you are stresssed (0-NO || 1-YES)')
+    with col1:
+        UserInput = st.text_input('Do you think you are stresssed (0-NO || 1-YES)')
         
 
         
