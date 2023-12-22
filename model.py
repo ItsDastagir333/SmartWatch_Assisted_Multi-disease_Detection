@@ -92,20 +92,23 @@ if (selected == 'AFib Prediction'):
         
     with col1:
         Diabetes = st.text_input('Diabetes')
-        
+
     with col2:
+        Heart_Disease=st.text_input('Heart Disease')
+        
+    with col3:
         Obesity = st.text_input('Obesity')
 
-    with col3:
+    with col1:
         Smoking = st.text_input('Smoking')
         
-    with col1:
+    with col2:
         Alcohol = st.text_input('Alcohol')
 
-    with col2:
+    with col3:
         Family_History_of_AF = st.text_input('Family History of AF')
         
-    with col3:
+    with col1:
         BMI = st.text_input('BMI')
        
      
