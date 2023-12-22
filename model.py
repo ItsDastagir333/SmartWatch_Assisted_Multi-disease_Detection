@@ -102,10 +102,10 @@ if (selected == 'AFib Prediction'):
     with col1:
         Alcohol = st.text_input('Alcohol')
 
-    with col3:
+    with col2:
         Family_History_of_AF = st.text_input('Family History of AF')
         
-    with col1:
+    with col3:
         BMI = st.text_input('BMI')
        
      
