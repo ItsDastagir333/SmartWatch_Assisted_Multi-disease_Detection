@@ -163,7 +163,7 @@ if (selected == "Stress Prediction"):
         stress_prediction = Stress_model.predict([[HeartRate, Spo2, Activity_Level, User_input]])                          
         
         if (stress_prediction[0] == 1):
-          stress_diagnosis = "The person is Stress"
+          stress_diagnosis = "The person is Stressed"
         else:
           stress_diagnosis = "The person is not Stressed"
         
